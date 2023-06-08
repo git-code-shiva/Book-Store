@@ -1,0 +1,60 @@
+.edit_container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.edit_form {
+  margin-top: 20px;
+}
+
+.edit_label {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+}
+
+.edit_input,
+.edit_textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.year_input {
+  color: #333;
+}
+
+.save_btn,
+.cancel_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save_btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.cancel_btn {
+  background-color: #dc3545;
+  color: white;
+}
